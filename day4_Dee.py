@@ -1,0 +1,42 @@
+print("thirty" +" "+ "days" +" "+ "of" +" "+"Python")
+
+print("Coding" +" "+ "For" +" "+ "all")
+
+company = "Coding For All"
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+print(company[0:6])
+print(company.rfind("Coding"))
+print(company.replace("Coding", "Python"))
+print(company.replace("Coding For All", "Python For Everyone"))
+print(company.split(" "))
+print("Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon".split(","))
+print(company[0])
+print(company[-1])
+print(company[10])
+print(company[0], company[7], company[11])
+print(company.index("C"))
+print(company.index("F"))
+print(company.rindex("l"))
+print("The first occurrence of the word 'because' in the following sentence is at index:", "You cannot end a sentence with because because because is a conjunction".index("because"))
+print("The last occurrence of the word 'because' in the following sentence is at index:", "You cannot end a sentence with because because because is a conjunction".rindex("because"))
+print("The slice of all because in the following sentence is:", "You cannot end a sentence with because because because is a conjunction"[31:54])
+print("Yes Coding for all starts with substring 'Coding':", company.startswith("Coding"))
+print("Yes Coding for all ends with substring 'Coding':", company.endswith("Coding"))
+print(" 'Coding for all ' without space is:", company.strip())
+
+fword = "30DaysOfPython"
+sword = "thirty_days_of_python"
+print(fword.isidentifier())
+print(sword.isidentifier())
+lst = ["Django", "Flask", "Bottle", "Pyramid", "Falcon"]
+print("The list of frameworks with a hash with a space string:", "# ".join(lst))
+print("I am enjoying this challenge.\nI just wonder what is next.")
+print("Name\t\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+print("The radius of a circle is : "+ str(10) + " meters\nThe area of a circle is : " + str(3.14 * 10 ** 2) + " square meters")
+print("8 + 6 = " + str(8 + 6) + "\n8 - 6 = " + str(8 - 6) + "\n8 * 6 = " + str(8 * 6) + "\n8 / 6 = " + str(8 / 6) + "\n8 % 6 = " + str(8 % 6) + "\n8 // 6 = " + str(8 // 6) + "\n8 ** 6 = " + str(8 ** 6))
